@@ -1,0 +1,29 @@
+npm i init -y 
+npm i express mongoose bcrypt nodemon jsonwebtoken joi vailidation
+index.js
+after that creating a main file index.js
+package.json
+ create a shortcut for nodemon in package.json strat :"nodemon index.js"
+ create folder structure 
+ create connectivity with  mongodb and server in main file index.js
+after that check the connectivity of mongodb.
+the port is litsning on 3000
+USERSCHEMA.JS
+after that create a userschema.js file 
+in this i am creating the userschema
+USERCONTROLLER.JS
+after that i am working on usercontroller.js
+in this file i am firstly improt userSchema.js file  
+ import the jsonwebtoken for when the user will login create a token for verification
+ import the bcrypt for password the user password must be incoded
+ create a function in this function the user will create there ID for creating the id username email and password must me required and the email is always uniqe
+create the login function for login 
+create getAlluser function to get all the user
+create getuserbyid the user will get with there id 
+create updateuser function the user will update using this function
+Create delete function the user will delete there id from database from mongodb
+all the userdata will save in mongodb
+USERROUTES.JS
+in this file i 
+
+
